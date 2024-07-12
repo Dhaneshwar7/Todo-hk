@@ -11,7 +11,7 @@ function TodoItem() {
 			<input
 				type="text"
 				className={`border outline-none w-full bg-transparent rounded-lg`}
-				value={todoMsg}
+				value='todo text'
 				onChange={e => setTodoMsg(e.target.value)}
 			/>
 			{/* Edit, Save Button */}
